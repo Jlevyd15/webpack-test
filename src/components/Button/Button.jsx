@@ -5,7 +5,7 @@ export class Button extends React.Component {
 	render() {
 		return (
 			<Fragment>
-			another thing
+			other things
 			<button onClick={() => alert(this.props.buttonBarData())}>{this.props.children}</button>
 			another
 			</Fragment>

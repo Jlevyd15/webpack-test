@@ -12,6 +12,7 @@ module.exports = {
 		contentBase: './dist',
 		hot: true
 	},
+	mode: 'development',
 	module: {
 		rules: [ 
 			{ test: /\.(js|jsx)$/, exclude: /node_modules/, use: 'babel-loader' },
